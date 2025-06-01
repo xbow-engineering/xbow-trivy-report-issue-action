@@ -105,7 +105,7 @@ def parse_results(data: ReportDict, existing_issues: List[str]) -> Iterator[Repo
         for vulnerability in vulnerabilities:
             package_name = vulnerability["PkgName"]
             package_version = vulnerability["InstalledVersion"]
-            package_fixed_version = vulnerability["FixedVersion"]
+            package_fixed_version = vulnerability.get("FixedVersion")
             package = f"{package_name}-{package_version}"
             report_id = f"{package}"
             has_issue = False
