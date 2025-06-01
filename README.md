@@ -1,4 +1,7 @@
-# GitHub Action - Trivy Issue Reporter
+# GitHub Action - Trivy Issue Reporter, XBOW fork
+
+> Note: This is a fork of the original [CemitDigital/trivy-report-issue-action](trivy-report-issue-action).
+> This fork fixes some bugs that are not being addressed upstream.
 
 This GitHub action reports results from a [Trivy](https://github.com/aquasecurity/trivy) vulnerability scan as GitHub issues.
 It will parse the *JSON* file and look for any vulnerabilties, and report them as issues (unless they are already reported).
