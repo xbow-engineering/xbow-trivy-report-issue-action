@@ -1,6 +1,6 @@
-name: "Trivy Issue Reporter"
-description: "Creates GitHub Issues from Trivy scan results"
-author: 'am0s'
+name: "Trivy Issue Reporter, XBOW fork"
+description: "Creates GitHub Issues from Trivy scan results. Fork by XBOW."
+author: 'xbow-engineering'
 branding:
   icon: 'check-square'
   color: 'blue'
