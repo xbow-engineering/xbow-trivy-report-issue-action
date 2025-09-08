@@ -12,6 +12,7 @@ If a package has multiple vulnerabilities it will be grouped on the package and 
 ## Examples
 
 ![Issue](images/issue1.png)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fxbow-engineering%2Fxbow-trivy-report-issue-action.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fxbow-engineering%2Fxbow-trivy-report-issue-action?ref=badge_shield)
 
 ## Usage
 
@@ -130,3 +131,7 @@ Additionally the tests can be run with the `docker-compose.test.yml`.
 ```console
 docker-compose -f docker-compose.test.yml run --rm trivy-reporter-test
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fxbow-engineering%2Fxbow-trivy-report-issue-action.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fxbow-engineering%2Fxbow-trivy-report-issue-action?ref=badge_large)
